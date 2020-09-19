@@ -14,8 +14,8 @@ read -p "confirm  password: " passtwo;
 
 if [ $passone = $passtwo ];
 then
-	touch /data/data/com.termux/files/usr/share/logint/.pass
-	python -c "import hashlib; print(hashlib.sha1(b'$passone').hexdigest())" > /data/data/com.termux/files/usr/share/logintool/.pass
+	touch /data/data/com.termux/files/usr/share/login/.pass
+	python -c "import hashlib; print(hashlib.sha1(b'$passone').hexdigest())" > /data/data/com.termux/files/usr/share/login/.pass
 	echo 'Login installed'
 	echo 'Restart Termux'
 	echo '😍😍😍😍😍😍😍😍'

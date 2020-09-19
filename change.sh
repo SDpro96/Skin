@@ -19,9 +19,10 @@ echo
 echo "_____________________"
 echo "|"$me "1" "|" $cy "Change Color?" 
 echo "|"$me "2" "|" $cy "Change Fonts?" 
-echo "|"$me "3" "|" $cy    "setup Tool"         
-echo "|"$me "4" "|" $cy "Change Psw ?" 
-echo "|"$me "5" "|" $Cy "Delete Psw ?" 
+echo "|"$me "3" "|" $cy    " Theme Tool"
+echo "|"$me "4" "|" $cy  "lock Termux"   
+echo "|"$me "5" "|" $cy "Change Psw ?" 
+echo "|"$me "6" "|" $Cy "Delete Psw ?" 
 echo "|"$me "99""|" $cy "Exist ?"     
 echo "_____________________"
 echo
@@ -73,7 +74,7 @@ clear
 figlet -f slant "W A I T"|lolcat
 sleep 2
 cd SD
-cd login
+cd logintools
 bash SDprosetup.sh
 sleep 3
 echo " "
