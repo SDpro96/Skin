@@ -71,6 +71,21 @@ fi
 if [ $pil = 4 ]
 then
 clear
+
+figlet -f slant "W A I T"|lolcat
+sleep 2
+cd SD
+sh log.sh
+sleep 3
+
+echo " "
+echo "\. ..Script By {SDpro}.../"| lolcat
+cd ..
+sh change.sh
+fi
+if [ $pil = 5 ]
+then
+clear
 figlet -f slant "W A I T"|lolcat
 sleep 2
 cd SD
@@ -83,7 +98,7 @@ cd ..
 cd ..
 sh change.sh
 fi
-if [ $pil = 5 ]
+if [ $pil = 6 ]
 then
 clear
 figlet -f slant "W A I T"|lolcat
